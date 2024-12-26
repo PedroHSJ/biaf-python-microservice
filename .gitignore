@@ -1,2 +1,42 @@
-/.venv
-/__pycache__
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Configuração do ambiente virtual
+.env/
+.venv/
+venv/
+env/
+
+# Arquivos de log
+*.log
+*.out
+*.err
+
+# Dados sensíveis
+*.env
+config/settings.py
+
+# Arquivos de entrada/saída temporários
+*.zip
+*.csv
+*.tmp
+
+# Diretórios de cache e armazenamento temporário
+.cache/
+*.bak
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Dependências
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ferramentas de IDE
+.idea/
+.vscode/
+*.swp
