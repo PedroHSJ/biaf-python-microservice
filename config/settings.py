@@ -1,0 +1,9 @@
+RABBITMQ_HOST = 'localhost'
+RABBITMQ_PORT = 5672
+RABBITMQ_USER = 'admin'
+RABBITMQ_PASS = 'admin'
+QUEUE_NAME = 'cnpj_csv_processing_queue'
+ELASTICSEARCH_HOST = 'http://localhost:9200'
+ELASTICSEARCH_USER = 'elastic'
+ELASTICSEARCH_PASS = 'admin'
+DOWNLOAD_FILE = "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/"
